@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+		}
+
+		.animat,body {
+			/*height: 100%;*/
+			/*position: relative;*/
+			animation: colorswitch 10s infinite;
+			/* Firefox */
+			-moz-animation: colorswitch 20s infinite;
+			/* Safari and Chrome */
+			-webkit-animation: colorswitch 10s infinite;
+			/* Opera */
+			-o-animation: colorswitch 20s infinite;
+		}
+
+		@keyframes colorswitch{
+
+				0% {
+						background: #0087C9
+					}
+
+				16% {
+						background: #EF4A53
+					}
+
+				32% {
+						background: #FFB463
+					}
+
+				49% {
+						background: #33D5D4
+					}
+
+				65% {
+						background: #254356
+					}
+
+				81% {
+						background: #5B4097
+					}
+
+				100% {
+						background: #0087C9
+					}
+		}
+
+
+
+
+
+	</style>
+
+
+
+
+</head>
+<body>
+<div id="animat" class="animat"></div>
+</body>
+</html>
